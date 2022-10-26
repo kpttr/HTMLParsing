@@ -1,0 +1,276 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1555,2391" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="33">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>HtmlAgilityPack</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="49">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>HtmlAgilityPack</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="540,2326" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Parsing HTML" sap:VirtualizedContainerService.HintSize="498,2236" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="htmlStorage" />
+        <Variable x:TypeArguments="x:String" Name="targetedWebsite" />
+        <Variable x:TypeArguments="x:String" Name="tagElement" />
+        <Variable x:TypeArguments="scg:List(x:String)" Name="outputList">
+          <Variable.Default>
+            <VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="new list(of String)" />
+          </Variable.Default>
+        </Variable>
+        <Variable x:TypeArguments="x:String" Name="buttonOutput" />
+        <Variable x:TypeArguments="x:Int32" Name="currentItem">
+          <Variable.Default>
+            <Literal x:TypeArguments="x:Int32" Value="1" />
+          </Variable.Default>
+        </Variable>
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" sap2010:Annotation.AnnotationText="Opens a dialog box to input the desired website url saving it to 'targetedWebsite'" DisplayName="Input website" sap:VirtualizedContainerService.HintSize="436,118" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Targeted Website" Title="HTML Parsing">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:String">[targetedWebsite]</OutArgument>
+        </ui:InputDialog.Result>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:InputDialog>
+      <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" sap2010:Annotation.AnnotationText="Opens a dialog box to input the tag level you're targeting saving it to the variable 'tagElement'" DisplayName="Input tags" sap:VirtualizedContainerService.HintSize="436,133" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Element Tag" Title="HTML Parsing">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:String">[tagElement]</OutArgument>
+        </ui:InputDialog.Result>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:InputDialog>
+      <If sap2010:Annotation.AnnotationText="if 'tagElement' doesn't start with &quot;//&quot; it will add it to the start of the string prevent an exception. &#xD;&#xA;ie: body/div -&gt; //body/div" Condition="[if(tagElement.Substring(0,2).Contains(&quot;//&quot;), false, true)]" sap:VirtualizedContainerService.HintSize="436,148" sap2010:WorkflowViewState.IdRef="If_2">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <If.Then>
+          <Sequence sap:VirtualizedContainerService.HintSize="400,160" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="358,70" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[tagElement]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">["//" + tagElement]</InArgument>
+              </Assign.Value>
+            </Assign>
+          </Sequence>
+        </If.Then>
+        <If.Else>
+          <Sequence sap:VirtualizedContainerService.HintSize="400,81" sap2010:WorkflowViewState.IdRef="Sequence_9">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </Sequence>
+        </If.Else>
+      </If>
+      <ui:MessageBox sap2010:Annotation.AnnotationText="allows the user to select if they want to parse the innertext of the targetted attributes of the html or the innerhtml. Setting this to 'buttonOutput'" AutoCloseAfter="00:00:00" Buttons="YesNo" Caption="Do you want the innerText?" ChosenButton="[buttonOutput]" DisplayName="HTML or Text option" sap:VirtualizedContainerService.HintSize="436,163" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;HTML Parsing&quot;]">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:MessageBox>
+      <uix:NApplicationCard sap2010:Annotation.AnnotationText="here we are opening the broswer and navigating to the targetedWebsite.&#xD;&#xA;Then we are using 'Get Attribute' activity to return the html of the targeted page as a string stored in 'htmlStorage'.&#xD;&#xA; After the html is parsed and then returned as a list&lt;str&gt; 'outputList'&#xD;&#xA;Then the browser is closed." AttachMode="ByInstance" CloseMode="Always" DisplayName="Open and Navigate browser" sap:VirtualizedContainerService.HintSize="436,1000" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="42685451-190a-4708-ba70-badc149f8e6d" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,687" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:GetAttribute ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="The selector targets the base html of the targeted page and stores it as a string 'htmlStorage'" Attribute="innerhtml" DisplayName="Get Attribute" sap:VirtualizedContainerService.HintSize="358,234" sap2010:WorkflowViewState.IdRef="GetAttribute_3">
+                <ui:GetAttribute.Result>
+                  <OutArgument x:TypeArguments="x:String">[htmlStorage]</OutArgument>
+                </ui:GetAttribute.Result>
+                <ui:GetAttribute.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="fd73c825-06ee-485b-bc56-3a4b91c27e62" Selector="&lt;webctrl css-selector='html' tag='HTML' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:GetAttribute.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:GetAttribute>
+              <ui:InvokeCode ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="selects all of the nodes inside of 'tagElement'.s adding their values to 'outputList'&#xD;&#xA;&#xD;&#xA;Takes 3 arguements: &#xD;&#xA;&#xD;&#xA;in_htmlStorage    - passing the stored html&#xD;&#xA;in_tagElement      - passing the targeted tags&#xD;&#xA;io_OutputList       - passing and returning the outputList&#xD;&#xA;in_buttonOutput - passing the value of buttonOutput" Code="var list = io_OutputList;&#xD;&#xA;var buttonOutput = in_buttonOutput;&#xD;&#xA;var htmlDoc = new HtmlAgilityPack.HtmlDocument();&#xD;&#xA;htmlDoc.LoadHtml(in_htmlStorage);&#xD;&#xA;&#xD;&#xA;var htmlNodes = htmlDoc.DocumentNode.SelectNodes(in_tagElement);&#xD;&#xA;switch(buttonOutput)&#xD;&#xA;{&#xD;&#xA;&#x9;case &quot;Yes&quot;:&#xD;&#xA;&#x9;&#x9;foreach (var node in htmlNodes)&#xD;&#xA;&#x9;&#x9;{&#xD;&#xA;&#x9;&#x9;&#x9;list.Add(node.InnerHtml);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;break;&#xD;&#xA;&#x9;case&quot;No&quot;:&#xD;&#xA;&#x9;&#x9;foreach (var node in htmlNodes)&#xD;&#xA;&#x9;&#x9;{&#xD;&#xA;&#x9;&#x9;&#x9;list.Add(node.InnerText);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;break;&#xD;&#xA;}&#xD;&#xA;" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="358,321" sap2010:WorkflowViewState.IdRef="InvokeCode_3" Language="CSharp">
+                <ui:InvokeCode.Arguments>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_htmlStorage">
+                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="htmlStorage" />
+                  </InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_tagElement">
+                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="tagElement" />
+                  </InArgument>
+                  <InOutArgument x:TypeArguments="scg:List(x:String)" x:Key="io_OutputList">
+                    <VisualBasicReference x:TypeArguments="scg:List(x:String)" ExpressionText="outputList" />
+                  </InOutArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_buttonOutput">
+                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="buttonOutput" />
+                  </InArgument>
+                </ui:InvokeCode.Arguments>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:InvokeCode>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" Selector="&lt;html app='chrome.exe' title='Lotus Cars - Lotus Cars Official Website' /&gt;" Url="[targetedWebsite]" />
+        </uix:NApplicationCard.TargetApp>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </uix:NApplicationCard>
+      <ui:ForEach x:TypeArguments="x:String" sap2010:Annotation.AnnotationText="Outputting the results of our parsing via console." CurrentIndex="[currentItem]" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="436,352" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[outputList]">
+        <ui:ForEach.Body>
+          <ActivityAction x:TypeArguments="x:String">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:String" Name="listItem" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,187" sap2010:WorkflowViewState.IdRef="Sequence_10">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="358,97" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[&quot;Item &quot; + (currentItem + 1).ToString +&quot;: &quot; +listItem]" />
+            </Sequence>
+          </ActivityAction>
+        </ui:ForEach.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:ForEach>
+    </Sequence>
+  </Sequence>
+</Activity>
